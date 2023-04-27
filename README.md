@@ -2,5 +2,5 @@
 Quadratic Equation Solver
 
 # Steps:
-Clone the repository
-Open the "index.html" file in your favorite browser
+1. Clone the repository
+2. Open the "index.html" file in your favorite browser
