@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duadratic equation solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Quadratic Equation Solver</h3>
+        <div class="euqation-container">
+            <input type="text" id="x-squared" placeholder="1">
+            <label for="x-squared">x² +</label>
+    
+            <input type="text" id="x" placeholder="1">
+            <label for="x">x +</label>
+    
+            <input type="text" id="constant" placeholder="0">
+            <label for="equals">= 0</label>
+        </div>
+        <div class="button-container">
+            <button id="find-roots" onclick="findRoots()">Find roots</button>
+        </div>
+
+        <div class="roots-container" id="roots-container">
+            <p id="roots"></p>   
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
